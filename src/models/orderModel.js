@@ -5,8 +5,8 @@ const orderSchema = new mongoose.Schema({
 
     customerId: 
     { type: ObjectId, required: true, ref: 'User' },
-    orderNumber: 
-    {type:Number,required:true},
+    name: 
+    {type:String,required:true},
     totalPrice: 
     { type: Number, required: true },
     discount:

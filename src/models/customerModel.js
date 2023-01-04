@@ -17,8 +17,8 @@ let customerSchema = new mongoose.Schema(
     discount:
     {type:Number}
   },
-  
-  { timestamps: true ,versionKey:false}
+
+  { timestamps: true}
 );
 
 module.exports = mongoose.model("Customer", customerSchema);
